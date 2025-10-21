@@ -33,7 +33,6 @@ Requirements
 --------
 
 Setup
-
 1 .Get your API Key from OpenWeatherMap
 
 2. Open weather_app.py (or your file) and replace:
@@ -70,7 +69,6 @@ If the city is not found:
 -----
 
 How it Works
-
 1. Prompts the user to enter a city name.
    
 2.Sends a request to OpenWeatherMap API using requests.
