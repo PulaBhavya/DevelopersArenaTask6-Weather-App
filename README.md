@@ -8,15 +8,15 @@ Features
 
 * Get current weather details for any city.
 
-     Displays:
+     * Displays:
   
-     City name 
+            City name 
   
-     Temperature 
+            Temperature 
 
-     Humidity 
+            Humidity 
   
-    Weather description 
+            Weather description 
 
 * Handles invalid city input gracefully.
 
@@ -35,6 +35,7 @@ Requirements
 Setup
 
 1 .Get your API Key from OpenWeatherMap
+
 2. Open weather_app.py (or your file) and replace:
 
             API_KEY = "YOUR_API_KEY"
@@ -71,8 +72,11 @@ If the city is not found:
 How it Works
 
 1. Prompts the user to enter a city name.
+   
 2.Sends a request to OpenWeatherMap API using requests.
+
 3.Parses JSON data for temperature, humidity, and weather description.
+
 4.Prints a formatted weather report in the terminal.
 
 -----
