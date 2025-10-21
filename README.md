@@ -5,17 +5,18 @@ A simple Python CLI (Command-Line Interface) Weather App that fetches real-time 
 -----
 
 Features
+
 * Get current weather details for any city.
 
      Displays:
   
-     City name 🏙️
+     City name 
   
-     Temperature 🌡️
+     Temperature 
 
-     Humidity 💧
+     Humidity 
   
-    Weather description 🌤️
+    Weather description 
 
 * Handles invalid city input gracefully.
 
@@ -56,10 +57,10 @@ Enter the city name when prompted:
         Enter city name: London
 
         ===== 🌦️ WEATHER REPORT =====
-        🏙️ City: London
-        🌡️ Temperature: 15°C
-        💧 Humidity: 72%
-        🌤️ Description: Clouds
+        City: London
+        Temperature: 15°C
+        Humidity: 72%
+        Description: Clouds
 
 If the city is not found:
 
